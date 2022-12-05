@@ -1,0 +1,128 @@
+body{
+    margin: 0px;
+    text-align:center;
+    font-family: 'Fragment Mono', monospace;
+}
+
+h1{
+    font-size: 7.5rem;
+    padding-top: 3%;
+    margin: 0 auto;
+}
+
+h2{
+    font-size: 2rem;
+    padding-top: 3%;
+}
+
+/*DIV*/
+
+.div_1{
+    width: 100%;
+    background-color: #FFF8EA;
+}
+
+.div_2{
+    width: 200px;
+    height: 200px;
+    background-color: #FFDDD2;
+}
+
+.div_3{
+    width: 200px;
+    height: 200px;
+    background-color: #FFB9B9;
+}
+
+.contact-me{
+    height:30%;
+    padding-bottom:50px;
+}
+
+.bottom-container{
+    padding:30px 0 16px 0;
+    height: 10%;
+    background-color: #FFB9B9;
+}
+
+
+.cloud-1{
+    padding-top:2%;
+    position:relative;
+    left: 10%;
+}
+
+.cloud-2{
+    position:absolute;
+}
+
+.intro-heading{
+    font-weight:normal;
+    font-size: 2.5em;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+/*Pictures*/
+.profile-pic{
+    width:200px;
+    height:200px;
+    border-radius: 100%;
+    margin-top: 70px;
+}
+
+.skill-pic-software{
+    border-radius: 100%;
+    width: 10rem;
+    height: 10rem;
+    margin-right: 30px;
+    float: left;
+}
+
+.skill-pic-geodetic{
+    border-radius: 100%;
+    width: 10rem;
+    height: 10rem;
+    padding-bottom: 30px;
+    float:right;
+}
+
+.btn-contactme {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    color: #000000;
+    font-size: 20px;
+    background: #FFB9B9;
+    padding: 10px 20px 10px 20px;
+    margin: 50px;
+    text-decoration: none;
+  }
+  
+  .btn-contactme:hover {
+    background: #FFDDD2;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+
+  .footer-link{
+    margin: 10px 20px 10px 20px;
+    text-decoration:none;
+  }
+
+  .footer-link:hover{
+    color: #FFDDD2;
+  }
+
+  .footer-copyright{
+    padding-top: 20px;
+    font-size: 10px;
+  }

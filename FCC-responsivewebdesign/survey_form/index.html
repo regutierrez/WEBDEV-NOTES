@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!--FCC RESPONSIVE WEB DESIGN CERTIFICATION REQUIREMENT-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>FCC Survey Form</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 id="title" class="text-center">Are you a Tinola or a Nilaga person?</h1>
+            <p id="description" class="description text-center">
+               Answer the questions below to find out!
+            </p>
+        </header>
+        <form id="survey-form">
+            <div class="form-group">
+                <label id="name-label" for="name">Name</label>
+                <input type="text" id="name" class="form-control" placeholder="Enter your Name" required >
+            </div>
+            <div class="form-group">
+                <label id="email-label" for="email">Email</label>
+                <input type="email" id="email" class="form-control" placeholder="Enter your Email" required>
+            </div>
+            <div class="form-group">
+                <label id="number-label" for="age">Age <span class="cue"> (optional)</span></label>
+                <input type="number" id="number" class="form-control" min="1" max="99" placeholder="Age">
+            </div>
+            <div class="form-group">
+                <p>What is your Zodiac Sign?</p>
+                <select id="dropdown" name="zodiac" class="form-control" required>
+                    <option disabled selected value>Select zodiac sign</option>
+                    <option value="aries">Aries</option>
+                    <option value="taurus">Taurus</option>
+                    <option value="gemini">Gemini</option>
+                    <option value="cancer">Cancer</option>
+                    <option value="leo">Leo</option>
+                    <option value="virgo">Virgo</option>
+                    <option value="libra">Libra</option>
+                    <option value="scorpio">Scorpio</option>
+                    <option value="sagittarius">Sagittarius</option>
+                    <option value="capricorn">Capricorn</option>
+                    <option value="aquarius">Aquarius</option>
+                    <option value="pisces">Pisces</option>
+                </select>    
+            </div>      
+            <div class="form-group">
+                <label for="preference">Anong dapat ilagay sa tinola?</label>
+                <label>
+                    <input name="preference" value="papaya" type="radio" class="input-radio">
+                    Papaya
+                </label>
+                <label>
+                    <input name="preference" value="sayote" type="radio" class="input-radio">
+                    Sayote
+                </label>                
+            </div>      
+            <div class="form-group">
+                <p>Anong spices ang mga trip mo sa sabaw?</p>
+                <label>
+                    <input name="spices" value="luya" type="checkbox" class="input-checkbox">Luya
+                </label>
+                <label>
+                    <input name="spices" value="paminta" type="checkbox" class="input-checkbox">Paminta
+                </label>
+                <label>
+                    <input name="spices" value="bawang" type="checkbox" class="input-checkbox">Bawang
+                </label>
+                <label>
+                    <input name="spices" value="sibuyas" type="checkbox" class="input-checkbox">Sibuyas
+                </label>
+                <label>
+                    <input name="spices" value="laurel" type="checkbox" class="input-checkbox">Dahong Laurel
+                </label>
+                <label>
+                    <input name="spices" value="patis" type="checkbox" class="input-checkbox">Patis
+                </label>
+            </div>    
+            <div class="form-group">
+                <P>Bakit ka tinola/nilaga hater?</P>
+                <textarea id="comments" class="input-textarea" name="comment" placeholder="Lagay mo rito..."></textarea>
+            </div>    
+            <div class="form-group">
+                <button type="submit" id="submit">Submit</button>
+            </div>          
+        </form>
+    </div>
+</body>
+</html>

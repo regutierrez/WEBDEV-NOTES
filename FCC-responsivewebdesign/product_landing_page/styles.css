@@ -1,0 +1,65 @@
+html {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+li {
+    padding: 0 1.5rem;
+    font-weight: 1000;
+    align-items: center;
+}
+
+section {
+
+    width: 700px;
+    max-width: 700px;
+    margin: auto;
+}
+
+#header-img {
+    width: 75px;
+    height: 75px;
+}
+
+#header {
+    display: flex;
+    position: fixed;
+    align-items: center;
+    padding: 0 20px;
+    height: 75px;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+#intro {
+    padding-top: 100px;
+}
+
+#intro > h1 {
+    font-weight: 100;
+}
+
+.nav-bar-spacer {
+    flex-grow: .90;
+    flex-shrink: 1;
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .nav-bar-spacer {
+        display:block;
+    }
+} 
+
+.nav-link {
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    text-decoration-line: underline;
+}
