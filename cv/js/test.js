@@ -1,4 +1,5 @@
-
+//DOM MANIPULATION
+/*
 const container = document.querySelector('#container');
 const pContent = document.createElement('p');
 const h3Content = document.createElement('h3');
@@ -27,4 +28,12 @@ pContent.textContent = "ME TOO!";
 pContent.style.cssText = "color: black";
 childDiv.appendChild(pContent);
 
+*/
 
+//EVENTS
+const btn = document.querySelector('#btn');
+
+// e is an object that references the event itself
+btn.addEventListener('click', (e) => {
+    e.target.style.background = 'blue';
+});
