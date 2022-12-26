@@ -28,7 +28,7 @@ pContent.textContent = "ME TOO!";
 pContent.style.cssText = "color: black";
 childDiv.appendChild(pContent);
 
-*/
+
 
 //EVENTS
 const btn = document.querySelector('#btn');
@@ -37,3 +37,9 @@ const btn = document.querySelector('#btn');
 btn.addEventListener('click', (e) => {
     e.target.style.background = 'blue';
 });
+*/
+function toCamelCase(str){
+    return str.replace(/[-_](.)/g, (_, c) => c.toUpperCase());
+}
+
+console.log(toCamelCase('the-stealth-warrior'))
